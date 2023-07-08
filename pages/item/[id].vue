@@ -44,7 +44,7 @@ definePageMeta({
 </script>
 
 <template>
-    <div id="ItemPage" class="container mt-4 max-w-[1200px] mx-auto px-2">
+    <main id="ItemPage" class="container mt-4 max-w-[1200px] mx-auto px-2">
         <div class="md:flex gap-4 justify-between mx-auto w-full">
             <div class="md:w-[40%]">
                 <img 
@@ -71,7 +71,7 @@ definePageMeta({
                 </div>
                 <div class="flex items-center my-2">
                     <span class="h-4 w-4 rounded-full p-0.5 bg-[#FFD000] mr-2">
-                        <Icon name="material-symbols:star-rounded" color="#fff" class="block -mr-[17px]" size="12" />
+                        <Icon name="material-symbols:star-rounded" color="#fff" class="-mr-[17px]" size="12" style="display: block;" />
                     </span>
                     <p class="text-primary">Extra 5% off</p>
                 </div>
@@ -114,5 +114,5 @@ definePageMeta({
                 </button>
             </div>
         </div>
-    </div>
+    </main>
 </template>
