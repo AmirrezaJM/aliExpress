@@ -8,7 +8,8 @@ export default <Partial<Config>>{
         primary: "#FF4646",
         secondary: "#C08562",
         background: "#FAFAFA",
-      }
+      },
+      
     }
   }
 }
